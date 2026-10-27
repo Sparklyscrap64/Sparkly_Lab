@@ -100,18 +100,6 @@ You can run Sparkly Lab locally without installing additional dependencies.
 
 4. Select an experiment from the homepage and start exploring!
 
-## 📚 Learning Goals
-
-This project is part of my personal learning journey in web development.
-
-Through Sparkly Lab, I aim to:
-
-- Strengthen my understanding of HTML, CSS, and JavaScript.
-- Practice DOM manipulation and event handling.
-- Learn how to organize files and structure a web project.
-- Build interactive features without relying on frameworks.
-- Improve my problem-solving and coding skills through hands-on practice.
-
 ## 🗺️ Roadmap
 
 - [x] Text Animation
