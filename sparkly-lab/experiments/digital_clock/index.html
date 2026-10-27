@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock — Sparkly Lab</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="/experiments/digital_clock/style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="../../index.html" class="logo">sparkly<span>lab.</span></a>
+
+        <nav>
+            <a href="../../index.html">← Back to Lab</a>
+        </nav>
+    </header>
+
+   <main class="text-lab">
+    <p class="eyebrow">EXPERIMENT 003</p>
+
+    <h1 class="lab-title">Digital Clock<span>.</span></h1>
+
+    <p class="description">
+        A simple digital clock that keeps track of your time.
+    </p>
+
+    <div class="clock-box">
+        <p id="clock">00:00:00</p>
+        <p id="period"></p>
+        <p id="date">Loading date...</p>
+    </div>
+
+    <div class="clock-controls">
+        <button id="format-button" class="button" type="button">
+            Switch to 12-hour
+        </button>
+
+        <button id="date-button" class="reset-button" type="button">
+            Hide Date
+        </button>
+    </div>
+
+    <p id="clock-status" class="lab-note" aria-live="polite">
+        Your local time.
+    </p>
+</main>
+
+    <script src="/experiments/digital_clock/script.js"></script>
+</body>
+</html>

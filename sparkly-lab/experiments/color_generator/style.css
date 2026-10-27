@@ -1,0 +1,52 @@
+
+/* COLOR GENERATOR */
+
+.color-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 280px;
+    margin-top: 40px;
+
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+
+    transition: background-color 0.3s ease;
+}
+
+#color-code {
+    padding: 12px 18px;
+
+    background: rgba(255, 255, 255, 0.85);
+    color: #171717;
+
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.color-controls {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+
+    margin-top: 24px;
+}
+
+.color-controls .button {
+    margin-top: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.color-controls .reset-button {
+    min-height: 43px;
+}
+
+@media (max-width: 768px) {
+    .color-display {
+        min-height: 220px;
+    }
+}

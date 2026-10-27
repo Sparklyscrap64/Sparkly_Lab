@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Generator — Sparkly Lab</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="/experiments/color_generator/style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="../../index.html" class="logo">sparkly<span>lab.</span></a>
+
+        <nav>
+            <a href="../../index.html">← Back to Lab</a>
+        </nav>
+    </header>
+
+    <main class="text-lab">
+
+        <p class="eyebrow">EXPERIMENT 002</p>
+
+        <h1 class="lab-title">Color Generator<span>.</span></h1>
+
+        <p class="description">
+            Generate random colors and discover your next favorite shade.
+        </p>
+
+        <div class="color-display" id="color-display">
+            <span id="color-code">#FFFFFF</span>
+        </div>
+
+        <div class="color-controls">
+            <button id="generate-button" class="button">
+                Generate Color ↗
+            </button>
+
+            <button id="copy-button" class="reset-button">
+                Copy HEX
+            </button>
+        </div>
+
+        <p id="copy-message" class="lab-note" aria-live="polite">
+            Ready to explore colors.
+        </p>
+
+    </main>
+
+    <script src="script.js"></script>
+    <script src="/experiments/color_generator/script.js"></script>
+</body>
+</html>
